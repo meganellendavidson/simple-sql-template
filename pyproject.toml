@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "psycopg3-db-template"
+name = "simple-sql-template"
 version = "0.1.0"
 description = "PostgreSQL database connection template using psycopg3"
 authors = ["Megan Davidson <meganellen.davidson@yahoo.co.nz>"]
