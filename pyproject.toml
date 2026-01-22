@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "PostgreSQL database connection template using psycopg3"
 authors = ["Megan Davidson <meganellen.davidson@yahoo.co.nz>"]
 readme = "README.md"
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
