@@ -6,13 +6,18 @@ authors = ["Megan Davidson <meganellen.davidson@yahoo.co.nz>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 psycopg = {extras = ["binary"], version = "^3.1.18"}
 python-dotenv = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
 black = "^24.1.0"
+isort = "^7.0.0"
+gitlint = "^0.19.1"
+mypy = "^1.19.1"
+pylint = "^4.0.4"
+pre-commit = "^4.5.1"
 
 [build-system]
 requires = ["poetry-core"]
